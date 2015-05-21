@@ -21,3 +21,6 @@
 .header .profile {
 	padding-bottom: 45px;
 }
+.profile a:hover{
+	color: rgba(200,200,200, 0.7);
+}

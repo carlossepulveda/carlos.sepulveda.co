@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="./images/monitor.png">
 
-    <title>CarlosSepulveda - Articles</title>
+    <title>CarlosSepulveda - About</title>
 
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,11 +31,11 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron header">
       <div class="container">
-      	<img src="./images/octocat.png" class="profile-photo pull-right">
+        <img src="./images/octocat.png" class="profile-photo pull-right">
         <h1 class="name">Carlos Sepúlveda</h1>
-        <p class="profile">Programmer by accident and runner on formation.</p>
+        <p class="profile"><a href="./posts.html#programmer-by-accident-post">Programmer by accident</a> and runner on formation.</p>
         <p>
-        	<!--<a class="btn btn-primary btn-lg" href="#" role="button">Contact me »</a>-->
+          <!--<a class="btn btn-primary btn-lg" href="#" role="button">Contact me »</a>-->
         </p>
       </div>
     </div>
@@ -49,13 +49,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">C</a>
+          <a class="navbar-brand" href="#">CaS</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Articles</a></li>
+            <li class="active"><a>About</a></li>
             <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./about.html">About</a></li>
+            <li><a href="./posts.html">Posts</a></li>
             <li><a href="./contact.html">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -64,20 +64,25 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>University life</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <a href="http://getbootstrap.com/examples/jumbotron/#" role="button">Read more »</a>
-        </div>
-        <div class="col-md-4">
-          <h2>Beginning to work</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-  		  <a href="http://getbootstrap.com/examples/jumbotron/#" role="button">Read more »</a>
-       </div>
-        <div class="col-md-4">
-          <h2>Javascript guidelines</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <a href="http://getbootstrap.com/examples/jumbotron/#" role="button">Read more »</a>
+        <div class="col-md-12">
+          <h2>About me ...</h2>
+          <p class="text-justify">My name is Carlos Andres Sepúlveda Sanchez (I'm latin guy LOL), I was born in Cúcuta, Colombia but currently I live in Bogotá, Colombia ... I love the basketball and I am becoming an amateur runner.</p>
+
+          <p>I grew up, studied and .... </p>
+
+          <p class="text-justify">I began my professional life working in the thesis for get the degree as Software Engineer. I worked there designing and implementing a web app that allows to write and compile code online <b>basically</b>. I fell in love of that project, and started to add functionalities like : concurrent editing, chat, and deployment on the browser. In this way I learned technologies like : nodejs, socket.IO, sharejs (An implementation of Operational Transformation), redis; also I had to write a lot of javascript lines. When the project was finished, the app allowed to write code concurrently with a "co-worker" just like google docs.</p>
+
+          <p class="text-justify">After I moved to Bogotá, Colombia and began to work in a project that was basically a book reader online, like amazon reader but with more graphics interactions because it was designed for children. In that project I was the lead engineer; We used NodeJs as server side technology, mongoDB as main database and backboneJS as javascript framework. It was a project with many challenges in client side due to the GUI had a lot of functionalities and for that we had to optimize the loading time, render time, and persisting data in the client (SessionStorage, LocalStorage, WebDB).</p>
+
+          <p class="text-justify">Then I changed job, started to work in Elibom (I still am working there). This company offer a REST API to send SMS to mobile phones, its main customers are financial companies that send notification messages. I belong to development team and am in charge of designing, improving and implementing the architecture that support the business core. We have a cloud platform (specifically AWS) and it has a concurrent and distributed architecture, to achieve it we use technologies like : Redis, RabbitMQ, Cache System, Stateless, Continous Integration, Continous Deploying, Jenkins, S3, cloudfront.</p>
+
+          <p class="text-justify">In Elibom I have had to develop libraries and others functionalities different to business core, for example : a PHP Elibom client, a C# Elibom client, bash scripts for automation, python scripts for automation, lua scripts for redis process. I face any challenge regardless of complexity or code language.</p>
+
+          <p class="text-justify">Also I am an entrepreneur, have been trying to found a startup. My first attempt was www.atartel.com, the idea is to offer a REST API to make phone calls automatically (like twilio). There I learned to use Asterisk, Freeswitch and other issues related to VoIP (I did not have idea). The Atartel architecture is distributed and scalable to support any amount of calls, if the queues are growing up, you only need to start a couple of new instances (virtual machines) and the problem is solved. The other attempt is www.facturala.co (It's under construction), the idea is to offer an API to create invoices (similar to freshbooks.com).</p>
+
+          <p class="text-justify">Finally, I just want to say, I love learning, it's amazing when you start a new project and do not know many issues (that force you to learn). I am working in personal projects like my website, a micro framework web (<a href="https://github.com/carlossepulveda/pongee" target="_blank">https://github.com/carlossepulveda/pongee</a>), rewriting the thesis and home automation (<a href="https://github.com/carlossepulveda/home-automation" target="_blank">https://github.com/carlossepulveda/home-automation</a>).</p>
+
+          <a href="https://github.com/carlossepulveda" target="_blank">https://github.com/carlossepulveda</a>
         </div>
       </div>
 
